@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile lastplayeddate="2017-12-24T23:26:29" launchable="1" name="CivVI" gameid="" gkeysdk="0" guid="{122F2950-877E-4E56-9758-C0C607E13DAE}" gpasupported="0" lock="0">
+    <description></description>
+    <target path="F:\STEAMLIBRARY\STEAMAPPS\COMMON\SID MEIER'S CIVILIZATION VI\BASE\BINARIES\WIN64STEAM\CIVILIZATIONVI_DX12.EXE"/>
+    <signature key="" name="" executable="" value=""/>
+    <macros>
+      <macro hidden="false" name="UP" guid="{7BF9C7AA-9AEB-49DA-99B3-AA33EED510F8}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="UP"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="DOWN" guid="{7B4E313D-D72A-43AA-9CF0-907B478A5E13}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="DOWN"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="LEFT" guid="{3CCFF446-0D3E-4A98-8877-7A6A3A8F7F26}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LEFT"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="RIGHT" guid="{8B697E39-F907-4392-AC39-C2781018E0BE}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RIGHT"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="]" guid="{CF4F6ACD-661E-4D6B-9429-7080C05F7AC9}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RBRACKET"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="[" guid="{E426AB47-7CBC-4E7B-8F19-ADD33B366002}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LBRACKET"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="." guid="{6164AB82-9D94-4259-A19B-2796EC97AD9D}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="PERIOD"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="," guid="{0CFB5055-7908-48AE-8846-6ABF2696D503}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="COMMA"/>
+        </keystroke>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment shiftstate="1" backup="false" contextid="G4" macroguid="{7BF9C7AA-9AEB-49DA-99B3-AA33EED510F8}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G11" macroguid="{7B4E313D-D72A-43AA-9CF0-907B478A5E13}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G10" macroguid="{3CCFF446-0D3E-4A98-8877-7A6A3A8F7F26}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G12" macroguid="{8B697E39-F907-4392-AC39-C2781018E0BE}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G5" macroguid="{CF4F6ACD-661E-4D6B-9429-7080C05F7AC9}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G3" macroguid="{E426AB47-7CBC-4E7B-8F19-ADD33B366002}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G13" macroguid="{6164AB82-9D94-4259-A19B-2796EC97AD9D}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G9" macroguid="{0CFB5055-7908-48AE-8846-6ABF2696D503}" original="false"/>
+    </assignments>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode shiftstate="1" color="#00ff00"/>
+      <mode shiftstate="2" color="#ffffff"/>
+      <mode shiftstate="3" color="#ffffff"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>

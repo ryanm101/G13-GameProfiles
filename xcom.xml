@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile lastplayeddate="2017-12-27T16:04:38" launchable="1" name="XCOM-WoC" gameid="" gkeysdk="0" guid="{4A16803B-25E4-4625-A09A-A9FD1262A4CD}" gpasupported="0" lock="0">
+    <description></description>
+    <target path="D:\STEAMLIBRARY\STEAMAPPS\COMMON\XCOM 2\XCOM2-WAROFTHECHOSEN\BINARIES\WIN64\XCOM2.EXE"/>
+    <signature key="" name="" executable="" value=""/>
+    <macros>
+      <macro hidden="false" name="Camera Up" guid="{A0FB3ED9-55EB-4386-903E-46BC485C7BA3}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="W"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Camera Down" guid="{C05944C0-45D7-4540-8691-CD6715567880}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="S"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Camera Left" guid="{27146336-FF25-4214-891B-B8FC6F46A3D1}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="A"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Camera Right" guid="{3427EC9F-B034-4A71-9315-E1F3D2F2B2CD}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="D"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Rotate Left" guid="{A5E375B6-BD0C-4C32-8E4D-FDFFEF0BCF47}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Q"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Rotate Right" guid="{27B8EB64-5DDB-4D87-A6C5-EE03F58D1536}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="E"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="End Turn" guid="{0EF9E891-FAEA-4496-B028-421E6AF9E64A}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="END"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Cycle Enemy Targets" guid="{72A8986D-71D6-4074-978C-7B9697A74C4C}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="ENTER" guid="{B5230F5E-28BE-4932-B3D8-31D3E2145937}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="ENTER"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="Evac Zone" guid="{EE08C60F-4CE4-4DF7-A509-8623295A1860}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="P"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" name="ESC" guid="{D43CC36F-A522-4FB4-A4AA-DBFDE30F8591}" color="4278246655">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="ESCAPE"/>
+        </keystroke>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment shiftstate="1" backup="false" contextid="G4" macroguid="{A0FB3ED9-55EB-4386-903E-46BC485C7BA3}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G11" macroguid="{C05944C0-45D7-4540-8691-CD6715567880}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G10" macroguid="{27146336-FF25-4214-891B-B8FC6F46A3D1}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G12" macroguid="{3427EC9F-B034-4A71-9315-E1F3D2F2B2CD}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G3" macroguid="{A5E375B6-BD0C-4C32-8E4D-FDFFEF0BCF47}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G5" macroguid="{27B8EB64-5DDB-4D87-A6C5-EE03F58D1536}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G19" macroguid="{0EF9E891-FAEA-4496-B028-421E6AF9E64A}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G15" macroguid="{72A8986D-71D6-4074-978C-7B9697A74C4C}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G22" macroguid="{B5230F5E-28BE-4932-B3D8-31D3E2145937}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G21" macroguid="{EE08C60F-4CE4-4DF7-A509-8623295A1860}" original="false"/>
+      <assignment shiftstate="1" backup="false" contextid="G1" macroguid="{D43CC36F-A522-4FB4-A4AA-DBFDE30F8591}" original="false"/>
+    </assignments>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode shiftstate="1" color="#00ff00"/>
+      <mode shiftstate="2" color="#ffffff"/>
+      <mode shiftstate="3" color="#ffffff"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
